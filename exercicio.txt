@@ -1,0 +1,65 @@
+
+
+QUESTÃO 1 - Componente Rodapé
+
+Crie um componente chamado "Rodape" dentro da pasta src/components/.
+Esse componente NÃO recebe nenhuma prop. Ele deve mostrar apenas um
+texto com o seu nome, por exemplo:
+
+    "Feito por: Maria Silva - Turma 2026"
+
+Depois, use esse componente no App.jsx, abaixo do Resultado.
+
+
+
+QUESTÃO 2 - Componente Botão Limpar
+Crie um componente chamado "Botao" que receba duas props:
+    - texto  (o texto que aparece no botão)
+    - aoClicar (a função que será chamada no clique)
+
+Use esse componente no App.jsx para adicionar um botão "Limpar" que
+zera os campos de peso e altura ao ser clicado.
+
+Dica: você vai precisar chamar setPeso('') e setAltura('') dentro
+da função passada para o botão.
+
+
+QUESTÃO 3 - Esconder o resultado quando não há dados
+Hoje, quando os campos estão vazios, aparece "NaN" no resultado.
+Faça com que o componente Resultado só apareça na tela quando o
+peso E a altura estiverem preenchidos.
+
+Dica: renderização condicional com { peso && altura && <Resultado ... /> }
+
+
+QUESTÃO 4 - Componente Classificação
+Crie um componente chamado "Classificacao" que recebe uma prop:
+    - imc (o valor do IMC calculado)
+
+Esse componente deve mostrar uma mensagem de acordo com o IMC:
+
+    Menor que 18.5    ->  "Abaixo do peso"
+    Entre 18.5 e 24.9 ->  "Peso normal"
+    Entre 25 e 29.9   ->  "Sobrepeso"
+    30 ou mais        ->  "Obesidade"
+
+Use esse componente no App.jsx logo abaixo do Resultado.
+
+
+QUESTÃO 5 - Campo de nome e saudação personalizada
+Adicione um NOVO estado no App.jsx chamado "nome" (useState com
+string vazia).
+
+Crie um componente novo chamado "CampoTexto" (parecido com o
+CampoNumero, mas usando type="text") e coloque um campo para o
+usuário digitar o nome antes dos campos de peso e altura.
+
+Depois, altere o componente Cabecalho para receber também uma prop
+"nome" e mostrar uma saudação, por exemplo:
+
+    "Olá, Maria! Calculadora de IMC"
+
+Se o nome estiver vazio, mostrar apenas "Calculadora de IMC".
+
+
+
