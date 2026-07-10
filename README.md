@@ -2,44 +2,11 @@
 
 Este guia mostra o passo a passo para você baixar, abrir no Visual Studio Code e executar o projeto na sua máquina **Windows**.
 
----
-
-## 1. Instalar os programas necessários
-
-Antes de começar, instale os três programas abaixo. Você só precisa instalar uma vez.
-
-### 1.1. Git (para baixar o projeto do GitHub)
-
-1. Acesse: https://git-scm.com/download/win
-2. O download começa automaticamente.
-3. Execute o instalador e clique em **Next** em todas as telas (pode deixar tudo padrão).
-4. Para conferir se instalou, abra o **Prompt de Comando** (tecla `Windows` + `R`, digite `cmd` e pressione Enter) e execute:
-   ```bash
-   git --version
-   ```
-   Se aparecer algo como `git version 2.xx.x`, deu certo.
-
-### 1.2. Node.js (para executar o projeto)
-
-1. Acesse: https://nodejs.org/
-2. Baixe a versão **LTS** (a que aparece à esquerda, recomendada).
-3. Execute o instalador e clique em **Next** em todas as telas.
-4. Para conferir se instalou, abra o **Prompt de Comando** e execute:
-   ```bash
-   node --version
-   npm --version
-   ```
-   Se aparecerem números de versão, deu certo.
-
-### 1.3. Visual Studio Code (o editor de código)
-
-1. Acesse: https://code.visualstudio.com/
-2. Clique em **Download for Windows**.
-3. Execute o instalador e clique em **Próximo** em todas as telas. **Importante:** marque a opção **"Adicionar ao PATH"** se aparecer.
+> **Pré-requisitos:** Você precisa ter o **Git**, o **Node.js (versão LTS)** e o **Visual Studio Code** instalados antes de começar.
 
 ---
 
-## 2. Baixar (clonar) o projeto
+## 1. Baixar (clonar) o projeto
 
 1. Escolha uma pasta no seu computador onde quer guardar o projeto. Sugestão: `C:\Users\SeuNome\Documentos\`
 2. Abra essa pasta no Explorador de Arquivos.
@@ -52,7 +19,7 @@ Antes de começar, instale os três programas abaixo. Você só precisa instalar
 
 ---
 
-## 3. Abrir o projeto no Visual Studio Code
+## 2. Abrir o projeto no Visual Studio Code
 
 1. Abra o **Visual Studio Code**.
 2. No menu superior, clique em **File** (Arquivo) → **Open Folder...** (Abrir Pasta).
@@ -61,7 +28,7 @@ Antes de começar, instale os três programas abaixo. Você só precisa instalar
 
 ---
 
-## 4. Instalar as dependências do projeto
+## 3. Instalar as dependências do projeto
 
 1. No Visual Studio Code, abra o terminal integrado: menu **Terminal** → **New Terminal** (ou pressione `Ctrl` + `'`).
 2. No terminal que abriu na parte de baixo do VS Code, execute:
@@ -72,7 +39,7 @@ Antes de começar, instale os três programas abaixo. Você só precisa instalar
 
 ---
 
-## 5. Executar o projeto
+## 4. Executar o projeto
 
 1. Ainda no terminal do VS Code, execute:
    ```bash
